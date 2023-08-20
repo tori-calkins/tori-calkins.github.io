@@ -1,0 +1,51 @@
+<html lang="en"> 
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pirate Treasure Game</title>
+    <link rel="icon" type="image/x-icon" href="https://static.thenounproject.com/png/9415-200.png">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Butcherman&family=Inconsolata&display=swap" rel="stylesheet">
+    </head>
+    <img src="https://cdn.mos.cms.futurecdn.net/7sDzRwUk98d7jhjfGK9ZVJ-1200-80.jpg" alt="Flying Dutchman and Crew" height="300"/>
+        
+    <h1>Treasure Hunt Game </h1>
+    <h2>
+        Game Rules:
+    </h2>
+    <h3>
+        <li>Click the boxes to reveal what is on the map 
+        <li>If you click on the bomb, you lose
+        <li>If you click on the treasure, you win
+    </h3>
+<body>
+    
+  <table id="box" border="_blank" height="200px" width="250px" class="line">
+    <tr>
+      <td id="0" onclick="treasure(0)">?</td>
+      <td id="1" onclick="treasure(1)">?</td>
+      <td id="2" onclick="treasure(2)">?</td>
+    </tr>
+    <tr>
+      <td id="3" onclick="treasure(3)">?</td>
+      <td id="4" onclick="treasure(4)">?</td>
+      <td id="5" onclick="treasure(5)">?</td>
+    </tr>
+    <tr>
+      <td id="6" onclick="treasure(6)">?</td>
+      <td id="7" onclick="treasure(7)">?</td>
+      <td id="8" onclick="treasure(8)">?</td>
+    </tr>
+  </table>
+  
+  <button class="button glow-button" target="_blank" Glow Button type="button" onclick="location.reload()">Restart Game</button>
+ 
+  <footer> &copy; Solona Beach Crew
+   <a href="https://www.publicdomainpictures.net/pictures/520000/nahled/image-16872060059bL.jpg">Game Main Screen</a>
+  </footer>
+  <script type="text/javascript" src="treasurehunt.js"></script>
+
+</body>
+</html>

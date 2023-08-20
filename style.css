@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(190, 187, 187);
+    background-image: url("https://images.pexels.com/photos/10117052/pexels-photo-10117052.jpeg");
+    background-size: cover;
+}
+h1{
+    text-align:center;
+    font-family: 'Butcherman', cursive;
+}
+h2, h3{
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+}
+#box{
+    border-width: 15px;
+}
+.line{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+img {
+    display: block;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto; 
+}
+footer {
+    color:white;
+}
+button {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgb(145, 92, 182);
+    padding: 15px 40px;
+    border-radius: 4px;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+    
+}
+.glow-button:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+  }
